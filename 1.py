@@ -1,17 +1,38 @@
-import sys
-from collections import defaultdict
-from math import gcd
-from collections import deque
-
-def fact(n):
-    if n==0:
-        return 1
+for t in range(int(input())):
+    a=int(input())
+    flag=2
+    d1=[]
+    d=list(map(int,input().split()))
+    f=len(d)
+    if len(d)%2==0:
+        for i in range(int(f/2)):
+            if flag%2==0:
+                e=min(d)
+                d1.append(e)
+                d.remove(e)
+            else:
+                e=max(d)
+                d1.append(e)
+                d.remove(e)
+            flag+=1
+        flag=0
+    
     else:
-        return n*fact(n-1)
+        for i in range(int(f+1)):
+            if flag%2==0:
+                e=min(d)
+                d1.append(e)
+                d.remove(e)
+            else:
+                e=max(d)
+                d1.append(e)
+                d.remove(e)
+            flag+=1
 
 
-if __name__ == "__main__":
 
-    for t in range(int(input())):
-        (a,b)=map(int,input().split())
-        # d = list(map(int,input().split()))
+    print(sum(d1))
+
+
+
+            

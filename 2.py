@@ -1,17 +1,9 @@
-import sys
-from collections import defaultdict
-from math import gcd
-from collections import deque
-
-def fact(n):
-    if n==0:
-        return 1
-    else:
-        return n*fact(n-1)
-
-
-if __name__ == "__main__":
-
-    for t in range(int(input())):
-        (a,b)=map(int,input().split())
-        # d = list(map(int,input().split()))
+d=int(input())
+if d==1:
+    print(-1)
+else:
+    print("0 0")
+    print("{} 0".format(d))
+    print("{} {}".format(d//2,-d//2))
+    print("{} {}".format(d//2,d//2))
+    
