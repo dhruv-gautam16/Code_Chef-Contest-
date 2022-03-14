@@ -1,8 +1,10 @@
-for _ in range (int(input())):
-    n = int(input())
-    arr = list(map(int,input().split()))
-    
-    maxi = max(arr)
-    arr.sort()
-    arr.pop()
-    print((sum(arr) - (n-1)) + maxi)
+for i in range(int(input())):
+    a=int(input())
+    b=a*2
+    count=0
+    for i in range(1,a+1):
+        if i==i**2:
+            count+=1
+        else:
+            continue
+    print(count)
