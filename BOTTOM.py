@@ -1,7 +1,3 @@
-x=10
-def func(num):
-  x=5
-  for i in num:
-    x*=i 
-  return x
-print(func((-2,-1,1,2,3)))
+for t in range(int(input())):
+    x=int((input()))
+    print(7-x)
