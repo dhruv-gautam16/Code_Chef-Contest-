@@ -1,0 +1,11 @@
+try:
+    T=int(input())
+    while(T):
+        (X,Y,D)=list(map(int,input().split()))
+        P=abs(X-Y)
+        if(P<=D):
+            print("yes")
+        else:
+            print("no")
+except:
+    pass
