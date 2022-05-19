@@ -9,4 +9,4 @@ for _ in range(int(input())):
             print(n - i * 4)
             break
     if not f :
-        print(-1)# cook your dish here
+        print(-1)
