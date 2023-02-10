@@ -1,6 +1,6 @@
 T = int(input())
 
-
+#code
 while T:
     N, P = map(int, input().split())
     A = list(map(int, input().split()))
