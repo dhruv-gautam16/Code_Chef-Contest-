@@ -1,0 +1,19 @@
+for testcases in range(int(input())):
+    a,b=map(int,input().split())
+    c=(a+1)
+    d=a*-1
+    d+=2
+    if((c+1)>b>0):
+        x='+'*(b-1)
+        y='*'*(c-b)
+        y+=x
+        print(y)
+    elif(1>b>=(d-1)):
+        r=b*-1
+        r+=1
+        x='-'*r
+        y='*'*(b+(a-1))
+        y+=x
+        print(y)
+    else:
+        print(-1)
