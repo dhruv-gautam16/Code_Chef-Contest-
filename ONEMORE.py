@@ -5,3 +5,4 @@ for i in range(t):
         print("yes")
     else:
         print("no")
+FINE
