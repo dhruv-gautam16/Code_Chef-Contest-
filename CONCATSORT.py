@@ -1,4 +1,4 @@
-# cook your dish here
+
 for _ in range(int(input())):
     num = int(input())
     array_1 = list(map(int,input().split()))[:num]
@@ -10,7 +10,7 @@ for _ in range(int(input())):
         array_3[0] = 0
         # while condition:
         while array_3[0] < num:
-            # checking not same:
+      
             if not null_array_1[array_3[0]] and array_1[array_3[0]] == array_2[array_3[1]]:
                 null_array_1[array_3[0]] = 1
                 array_3[0] += 1
