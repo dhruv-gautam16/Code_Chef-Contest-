@@ -5,7 +5,7 @@ for _ in range(int(input())):
     array_2 = sorted(array_1)
     array_3 = [array_1.index(array_2[0]),0]
     null_array_1 = [0]*num
-    # loop:
+
     for i in range(2):
         array_3[0] = 0
        
