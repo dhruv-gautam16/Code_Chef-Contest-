@@ -8,7 +8,7 @@ for _ in range(int(input())):
     # loop:
     for i in range(2):
         array_3[0] = 0
-        # while condition:
+       
         while array_3[0] < num:
       
             if not null_array_1[array_3[0]] and array_1[array_3[0]] == array_2[array_3[1]]:
