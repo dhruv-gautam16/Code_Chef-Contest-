@@ -5,6 +5,7 @@ ans = []
 for i in range(t):
     n = int(input())
     s = []
+
     for j in range(n):
         l=list(map(int,input().split()))
         s.append(l)
