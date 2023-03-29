@@ -17,7 +17,7 @@ for _ in range(int(input())):
                 array_3[1] += 1
             else:
                 array_3[0] += 1
-    # current check:
+  
     if array_3[0] == array_3[1]:
         print("YES")
     else:
