@@ -5,4 +5,4 @@ for _ in range(t):
     if(a>b):
         print("YES")
     else:
-        print("NO")
+        print("NO ")
