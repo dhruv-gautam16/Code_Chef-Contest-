@@ -1,4 +1,4 @@
-for i in range(int(input())):
+PAfor i in range(int(input())):
     x,y,z=map(int,input().split())
     r=(x*5)+(y*10)
     print(r//z)
