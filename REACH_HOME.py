@@ -1,4 +1,3 @@
-# cook your dish here
 motor = int(input())
 for f in range(motor):
   F,H =map(int,input().split())
