@@ -1,4 +1,3 @@
-# cook your dish here
 budget=int(input())
 for b in range(budget):
   ICM=int(input())
