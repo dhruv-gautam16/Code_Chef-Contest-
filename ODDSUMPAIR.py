@@ -1,3 +1,4 @@
+
 goals = int(input())
 for distractions in range(goals):
     wife, life, knife = map(int, input().split())
