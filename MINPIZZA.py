@@ -1,4 +1,3 @@
-# cook your dish here
 T = int(input())
 for tc in range(T):
 	(n, x) = map(int, input().split(' '))
