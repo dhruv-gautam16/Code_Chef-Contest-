@@ -1,7 +1,4 @@
-# cook your dish here
-"""
-hello sir
-"""
+
 hlo=int(input())
 for love in range(hlo):
     l=list(map(int,input().split()))
