@@ -24,7 +24,6 @@ def main():
         elif b < a: print("Second")
         else: print('Both')
         
-#----------------------------------------- MAIN CODE -------------------------------------------------#
 
 if __name__ == "__main__":
     main()
