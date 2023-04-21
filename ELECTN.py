@@ -1,4 +1,4 @@
-T = int(input())
+t = int(input())
 for _ in range(T):
     n ,x =list(map(int,input().split()))
     count = 0
