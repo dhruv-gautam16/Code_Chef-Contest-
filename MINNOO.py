@@ -1,4 +1,3 @@
-# print ('YES' if a>=8 else 'NO')
 
 t=int(input())
 for _ in range(t):
