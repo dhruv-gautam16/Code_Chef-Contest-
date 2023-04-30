@@ -1,3 +1,4 @@
+
 t=int(input())
 while t!=0:
     n,k=map(int,input().split())
