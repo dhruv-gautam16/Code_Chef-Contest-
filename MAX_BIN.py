@@ -1,3 +1,4 @@
+
 mapInput = lambda: map(int, input().split())
 listInput = lambda: list(mapInput())
 ceil = lambda x, y: -(-x//y)
