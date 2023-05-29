@@ -1,3 +1,4 @@
+
 goals = int(input())
 for distractions in range(goals):
     wife = int(input())
