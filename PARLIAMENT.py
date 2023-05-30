@@ -1,4 +1,3 @@
-# cook your dish here
 parli = int(input())
 for p in range(parli):
   n,x = map(int,input().split())
