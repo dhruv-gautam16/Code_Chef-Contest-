@@ -1,3 +1,4 @@
+#add your code below this
 for t in range(int(input())):
     a=int(input())
     flag=2
