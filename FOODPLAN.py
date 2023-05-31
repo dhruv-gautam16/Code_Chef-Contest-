@@ -1,3 +1,4 @@
+
 t=int(input())
 for i in range(0,t):
     n,m=[int(x) for x in input().split()]
