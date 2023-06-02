@@ -1,4 +1,3 @@
-# cook your dish here
 fav = int(input())
 for f in range(fav):
   num = int(input())
