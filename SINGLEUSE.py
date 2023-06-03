@@ -1,4 +1,3 @@
-# cook your dish here
 use=int(input())
 for u in range(use):
   a,b,c=map(int,input().split())
