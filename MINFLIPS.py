@@ -1,4 +1,3 @@
-# cook your dish here
 flip = int(input())
 for f in range(flip):
   n= int(input())
