@@ -1,4 +1,3 @@
-# cook your dish here
 for _ in range(int(input())):
     A= list(map(int,input().split()))
     A.sort()
