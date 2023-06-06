@@ -1,4 +1,3 @@
-# cook your dish here
 cut=int(input())
 for c in range(cut):
   n,k=map(int,input().split())
