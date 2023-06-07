@@ -1,4 +1,3 @@
-# cook your dish here
 for _ in range(int(input())):
     submissions = list(map(int,input().split()))
     hardest = min(submissions)
