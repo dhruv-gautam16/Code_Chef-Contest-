@@ -1,4 +1,3 @@
-# cook your dish here
 def solve(b, a):
     # find the minimum of b/2 and a
     # since Chef can only make as many chaats as there are apples
