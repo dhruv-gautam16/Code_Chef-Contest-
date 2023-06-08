@@ -1,4 +1,3 @@
-# cook your dish here
 x,y=map(str,input().split())
 if x=="R" or y=="R":
     print("R")
