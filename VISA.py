@@ -1,4 +1,3 @@
-# cook your dish here
 for i in range(int(input())):
     x1,x2,y1,y2,z1,z2 = map(int, input().split())
     if x2>=x1:
