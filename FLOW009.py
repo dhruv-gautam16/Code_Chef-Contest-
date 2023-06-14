@@ -1,4 +1,3 @@
-# cook your dish here
 for i in range(int(input())):
     quanity,price=map(int,input().split())
     total = quanity * price 
