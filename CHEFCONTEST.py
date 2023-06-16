@@ -1,4 +1,3 @@
-# cook your dish here
 for i in range(int(input())):
   X,Y,P,Q = map(int,input().split())
   c1 = X + P*10
