@@ -1,3 +1,4 @@
+
 t = int(input())
 if(t >= 1 and t <= 100):
     for _ in range(t):
