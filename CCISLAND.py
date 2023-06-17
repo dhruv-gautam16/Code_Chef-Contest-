@@ -1,4 +1,3 @@
-# cook your dish here
 for i in range(int(input())):
     x,y,xr,yr,D=map(int,input().split())
     a=x//xr
