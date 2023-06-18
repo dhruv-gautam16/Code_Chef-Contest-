@@ -1,4 +1,3 @@
-# cook your dish here
 for i in range(int(input())):
   X1,X2,X3,V1,V2 = map(int,input().split())
   S1 = (X3-X1)/V1
