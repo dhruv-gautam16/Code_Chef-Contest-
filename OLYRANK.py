@@ -1,4 +1,3 @@
-# cook your dish here
 for _ in range(int(input())):
     s=list(map(int,input().split()))
     t1=sum(s[:3])
