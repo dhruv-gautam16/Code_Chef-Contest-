@@ -1,4 +1,3 @@
-# cook your dish here
 # function to count number of holidays in a given month
 def count_holidays(n, festivals):
     holidays = set()  # set to store all holidays
